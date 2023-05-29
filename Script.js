@@ -40,3 +40,10 @@ function desencriptar(stringDesncriptado){
     return stringDesncriptado;
 }
 
+function copiarTexto() {
+    mensaje.select();
+    document.execCommand('copy');
+    alert('Texto copiado al portapapeles.');
+}
+
+
