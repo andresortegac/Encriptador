@@ -53,6 +53,36 @@ main {
     outline: none;
 }
 
+.notificacionPrincipal {
+    background: white;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    margin-left: 98px;
+    margin-top: 450px;
+    padding-left: 40px;
+    position: absolute;
+    font-size: 31px; 
+    width: 300px;
+}
+
+.notificacionSecundaria {
+    background: white;
+    border: none;
+    border-radius: 24px;
+    color: rgba(0, 0, 0, 0.63);
+    margin-left: 98px;
+    margin-top: 550px;
+    padding-left: 20px;
+    position: absolute;
+    font-size: 23px; 
+    width: 350px;
+}
+
+.notificaciones{
+    text-align: center;
+}
+
 .botones{
     display: flex;
     margin-top: 18px;

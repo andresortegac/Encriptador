@@ -6,6 +6,8 @@ function btnEncriptar(){
     mensaje.value = textoEncriptado
     textArea.value= "";
     mensaje.style.backgroundImage = "none";
+    const notificaciones = document.querySelector('.notificaciones');
+    notificaciones.style.display = "none";
 }
 
 function encriptar(stringEncriptado){
